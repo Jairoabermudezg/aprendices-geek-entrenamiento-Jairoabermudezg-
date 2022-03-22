@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>formulacion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+
+<body>
+    
+    <h3>Formulario</h3>
+    <div id="nombre-apellido">
+        <form action="">
+            <label for="fname">Nombres</label> <br>
+            <input type="text" id="fname" name="firstname" placeholder="Nombre">
+            <input type="text" id="lname" name="lastname" placeholder="Apellido">
+    </div>   
+    <div>
+        <label for="email">Nombre de usuario</label>
+        <input class="full-width" type="text" id="email" name="firstname" placeholder="@gmail.com">
+    </div>
+    <div>
+        <label for="fname">Contraseña</label>
+        <input class="full-width" type="text" id="email" name="email" placeholder="">
+    </div>
+    <div>
+        <label for="fname">Confirma tu Contraseña</label>
+        <input class="full-width" type="text" id="email" name="email" placeholder="">
+    </div>
+    <div id="nacimiento">
+        <label for="fname">Fecha de nacimiento</label> </br>
+        <input type="text" id="dia" name="" value="" placeholder="Dia" />              
+        <select name="" id="">
+            <option value="">Mes</option>
+            <option value="">Enero</option>
+            <option value="">Febrero</option>
+            <option value="">Marzo</option>
+        </select>
+        <input type="text" id="" name="" value="" placeholder="año" /> 
+    </div>
+    <div>
+        <label for="country">Sexo</label>
+        <select id="country" name="country">
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+        </select>
+        <div class="container">
+            <form id="login" onsubmit="process(event)">
+                <p>Teléfono móvil</p>
+                <input id="phone" type="text" name="phone" />
+                <input type="submit" class="btn" value="Verify" />
+            </form>
+            <!-- ^^  form code  ^^ -->
+            <div class="alert alert-info" style="display: none;"></div>
+        </div>
+        <div>
+            <label for="fname">Tu dirección de correo electronico actual</label>
+            <input type="text" id="fname" name="firstname" placeholder="">
+        </div>
+        <div>
+            <label for="fname">Ubicación</label>
+            <select id="country" name="country">
+                <option value="australia">australia</option>
+                <option value="canada">canada</option>
+            </select>
+        </div>
+    </div>
+    <input type="submit" value="Enviar">
+    </form>
+    </div>
+
+</body>
+
+</html>
