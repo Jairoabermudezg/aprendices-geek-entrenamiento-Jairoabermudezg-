@@ -1,0 +1,10 @@
+.Header{
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: var(--header-height);
+    text-align: center;
+    background-color: #007bdf;
+    color: #dfe0e0;
+    font-size: 1.25rem;
+}
