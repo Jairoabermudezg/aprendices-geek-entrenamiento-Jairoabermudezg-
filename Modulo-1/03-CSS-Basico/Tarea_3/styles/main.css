@@ -1,25 +1,64 @@
-.Header{
-    padding: 1rem;
+:root {
+    --first-color: #007BDF;
+    --first-color-alt: #006DC6;
+    --second-color: #00CBFF;
+    --second-color-alt: #00BFF0;
+    --third-color: #FF3C32;
+    --third-color-rgba: rgba(255, 60, 50, .5);
+    --third-color-alt: #FF2419;
+    --accent-color: #FBA905;
+    --accent-color-alt: #F1A000;
+    --dark-color: #282D31;
+    --dark-color-alt: #141618;
+    --border-color: #DFE0E0;
+    --text-color: #53575A;
+    --body-bg: #FAFDFF;
+    --font-main: sans-serif;
+    --font-size: 16px;
+    --line-height: 1.6;
+    --header-height: 8rem;
+    --max-width: 1200px;
+    --n: 2;
+    /* background-color: springgreen; */
+  }
+
+  html {
+    /* background-color: steelblue; */
+    box-sizing: border-box;
+    font-family: var(--font-main);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    background-color: var(--body-bg);
+    color: var(--text-color);
+  }
+
+  .Header {
+    padding: 0;
     position: fixed;
-    width: 100%;
+    width: 99%;
     height: var(--header-height);
     text-align: center;
-    background-color: #007bdf;
-    color: #dfe0e0;
-    font-size: 1.25rem;
-}
+    background-color: var(--first-color);
+    color: var(--border-color);
+    font-size: 1.11rem;
+  }
 
-.Main {
+  .Main {
     padding: calc(var(--header-height) + 1rem) 1rem 0;
     margin: 0 auto;
     max-width: var(--max-width);
-}
-
-article {
-    color: aqua;
-    transform: color .3s ease-in;
-}
-
-.Main article:first-child {
-    font-size: 1.25rem;
+    text-align: center;
   }
+
+  .Main h2 {
+    color: #3e2523;
+  }
+
+  .Main article {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #D1F2EB;
+    color: #3e2523 ;
+    transition: all .5s ease-out;
+  }
+
