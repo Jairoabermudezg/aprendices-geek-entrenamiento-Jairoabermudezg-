@@ -8,3 +8,18 @@
     color: #dfe0e0;
     font-size: 1.25rem;
 }
+
+.Main {
+    padding: calc(var(--header-height) + 1rem) 1rem 0;
+    margin: 0 auto;
+    max-width: var(--max-width);
+}
+
+article {
+    color: aqua;
+    transform: color .3s ease-in;
+}
+
+.Main article:first-child {
+    font-size: 1.25rem;
+  }
