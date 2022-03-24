@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +26,32 @@ body{
     width: 100%;
 }
 
+#titulo{
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+#titulo h1{
+    float: left;
+}
+
+.menu2{
+    float: right;
+    margin-top: 10px;
+}
+
+.menu2 a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    right: 10px;
+}
+
+.menu2 a:hover{
+    background: rgb(14, 202, 213,0.5);
+}
+
 .ContenedorNav{
     width: 100%;
     margin: auto;
@@ -41,3 +69,29 @@ body{
     background: rgba(149, 164, 165, 0.5);
     padding: 5px;
 }
+
+#Cabeza h1{
+    float: left;
+}
+
+.menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
