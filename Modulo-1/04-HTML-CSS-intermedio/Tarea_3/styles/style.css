@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#fondo{
+    background: url(../Imagenes/pastor1.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedorTitulo{
+    background: rgba(251, 251, 251, 0.3);
+    color: #FFF;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+
+.ContenedorNav{
+    width: 100%;
+    margin: auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    height: auto;
+    background: rgba(149, 164, 165, 0.5);
+    padding: 5px;
+}
