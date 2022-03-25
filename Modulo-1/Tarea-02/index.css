@@ -109,7 +109,7 @@ p{
 
 .me4{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;        
 }
 
 .carousel-item{
@@ -119,4 +119,17 @@ p{
 .img:hover {
     visibility: visible;
 }
+
+
+
+.pelicula{
+    width: 100%;
+    margin: 18px auto;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
 
