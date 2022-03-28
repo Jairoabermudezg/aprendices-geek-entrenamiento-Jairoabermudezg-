@@ -9,11 +9,11 @@ main{
     align-items: center;
     font-family: 'Barlow' , sans-serif;
     margin: auto;
-    width: 24.4em;    
+    width: 24.4em;
 }
 
 input{
-
+    
     border: 1px solid #cac3c3;
 }
 
@@ -41,6 +41,7 @@ h4{
     border-radius: 0px 0px 10px 10px;
     position: relative;
     border: 1px solid #cac3c3;
+
 }
 
 header{
@@ -51,7 +52,7 @@ header{
 .cabecero p:first-child {
     font-family: 'Rubik' , sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 29px;
     margin: 1px;
     padding: 0 0 0 0px;
 }
@@ -73,7 +74,7 @@ header{
 
 .datos1{
     margin-bottom: 10px;
-    width: 100%;
+    width: 100%; 
 }
 
 .datos1 input{
