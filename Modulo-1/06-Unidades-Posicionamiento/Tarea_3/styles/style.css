@@ -5,6 +5,7 @@ body.style {
     position: fixed;
     text-align: right;
     overflow: hidden;
+    
 
 }
 
@@ -15,43 +16,45 @@ body.style {
     width: 200px;
     height: 200px;
     background: #00D8FF;
-    position: absolute;
+    position: relative;
     border: 2px solid black;
     left: 200px;
-    z-index: 700;
+    z-index: 800;
 }
 
 .cuadrado1 {    
-    top: 120px;
+    top: 140px;
     left: 60px;
     width: 200px;
     height: 200px;
     background: #25FE01;
     border: 2px solid black;
-    position: relative;
-    z-index: 100;
+    position: absolute;
+    z-index: 500;
 }
 
 .cuadrado2 {
-    top: -80px;
+    top: -70px;
     left: 330px;
     width: 200px;
     height: 200px;
     background: #F7FE00;
     border: 2px solid black;
     position: relative;    
-    z-index: 700;
+    z-index: 800;
 }
 
 .cuadrado3 {
-    top: 260px;
+    top: 270px;
     left: 200px;   
     width: 200px;
     height: 200px;
     background: #FE69F9;
     border: 2px solid black;
     position: absolute;
-    z-index: 800;    
+    z-index: 800;   
+    
+    
 
 }
 
