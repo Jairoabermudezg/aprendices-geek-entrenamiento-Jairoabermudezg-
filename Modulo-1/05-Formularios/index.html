@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/clear.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +14,7 @@
     <title>Formulario</title>
 </head>
 
-<body>
+<body id="wrapper">
     <main>
         <div id="globalContainer" class="uiContextualLayerParent">
             <div class="fb_content" id="content" role="main">
@@ -30,13 +31,13 @@
             <section class="dato0">
                 <header class="cabecero1">
                 <label for="nombreApellido"></label>
-                <input type="text" name="" id="" placeholder="Nombre">
-                <input type="text" placeholder="Apellido">
+                <input type="text" name="" id="" placeholder="Nombre" required pattern="[a-z]{4,10}">
+                <input type="text" placeholder="Apellido" required pattern="[a-z]{4,20}">
             </header>
             </section>
             <section class="datos1">
                 <label for="email"></label>
-                <input type="text" placeholder=" Numero de celular o correo electronico"><br>
+                <input type="text" placeholder=" Numero de celular o correo electronico" required pattern="^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{3}-\d{3}-\d{4})$"><br>
                 <label for="email"></label>
                 <input type="password" placeholder="Contraseña nueva">
             </section>

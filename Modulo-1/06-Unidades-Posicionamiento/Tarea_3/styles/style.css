@@ -4,10 +4,12 @@ body.style {
     background-color: hsl(0, 0%, 90%);
     position: fixed;
     text-align: right;
+    overflow: hidden;
 
 }
 
 .cuadrado {
+    bottom: 0;
     top: 10px;
     left: 80px;
     width: 200px;
