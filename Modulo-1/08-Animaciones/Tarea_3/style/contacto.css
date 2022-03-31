@@ -1,0 +1,49 @@
+body{
+    border: solid rgb(15, 14, 14);
+    margin: auto;
+    width: 50vh;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+input{
+    border-radius: 3px;
+    border: solid rgb(179, 177, 177);
+    height: 25px;
+    margin: 3px;  
+}
+
+#nombreApellido input{
+
+    width: 44%;
+    background-color: rgb(241, 241, 239);
+}
+
+#correo input{
+
+    width: 95%;
+    background-color: rgb(241, 241, 239);
+}
+
+#mensaje{
+    width: 96%;
+
+}
+
+
+div p{
+    font-size: small;
+    text-align: justify;
+    
+}
+
+
+#enviar{
+    background-color: green;
+    color: white;
+    width: 45%;
+    border: none;
+    text-align: center;
+}

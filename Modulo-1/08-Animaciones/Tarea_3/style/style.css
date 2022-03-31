@@ -1,0 +1,127 @@
+header{
+    background: #FDFC47;   
+    background: linear-gradient(to right, #24FE41, #FDFC47); 
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 95%;
+    max-width:1200px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;  
+}
+
+#header img{
+    display: block;
+    height: 400px;
+    object-fit: cover;
+    width: auto;
+    animation: claseGiro 1s;
+}
+
+.textos{
+    width: 50%;
+    color: #fff;
+}
+
+.textos h1{
+    font-size: 45px;
+    animation: claseGiro 3s;
+
+}
+
+.textos h2{
+    font-size: 28px;
+    animation: claseGiro 2s;
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    width: 98,5%;
+    height: 40px;  
+    justify-content: right;
+}
+
+.lista{
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
+.lista a{
+    text-decoration: none;
+    color: rgb(2, 46, 17);
+}
+.lista:hover a{
+     
+    background-color: rgb(247, 223, 188);
+    color: green;
+}
+
+
+#contacto{
+
+    margin-left: 6%;
+    font-size: 16px;  
+ }
+
+ #contacto a{
+    padding: 8px 45px 8px 45px;
+    border: solid green;
+    background-color: aliceblue;
+    color: green;
+    text-decoration: none;
+ }
+ 
+@keyframes claseGiro{
+
+    0%{
+        background-color: rgb(84, 84, 177);
+    }
+    20%{
+        background-color: rgb(67, 67, 139);
+        left: 0;
+        top: 10%;
+    }
+    40%{
+        background-color: rgb(43, 43, 90);
+        left: 0;
+        top: 10%;
+    }
+    60%{
+        background-color: rgb(43, 43, 88);
+        left: 0;
+        top: 10%;
+    }
+    80%{
+        background-color: rgb(21, 21, 44);
+        left: 0;
+        top: 10%;
+    }
+    100%{
+        background-color: rgb(7, 7, 15);
+        left: 0;
+        top: 10%;
+    }
+
+}
+
+
