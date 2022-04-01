@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: white;
+}
+/* #67b639 */
+
+.contenedor{
+    width: 25rem;
+    border: 2px solid #c7c5c5;
+    margin: 2.5rem auto 0rem auto;
+    color: white;
+    box-shadow: 0px 5px 15px #979696ad;
+    background-color: #f1f0f088;
+}
+.header{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25PX;
+    text-align: center;
+    background-color: #4fce4f;
+    width: auto;
+    padding: 1.5rem 0.5rem 1.2rem 2rem;
+    text-shadow: 2px 2px 18px #042203;
+    box-shadow: 0px 5px 15px #979696;   
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 2.7rem;
+    font-size: 20px;
+    color: #c7c5c5;
+}
+.formulario{
+    font-family: 'Roboto', sans-serif;
+    color: #4b4a4a;
+    width: 90%;
+    margin: 1rem auto 0rem auto;
+    font-size: 28px;
+}
+img{
+    width: 55px;
+    opacity: 20%;
+}
+input{
+    padding: 20px 0.002rem;
+    border-radius: 10px;
+    border: 2px solid #e4e3e3;
+}
+/* decoracion texto KG y M */
+.verde{
+    color: #28d328;
+}
+/* botones sexo */
+.botones{
+    margin-left: 2.9rem;
+}
+.decoracion1{
+    border-right:  1px solid #aaaaaa;
+    padding-top: 1.9rem;
+}
+.decoracion2{
+    border-left: 1px solid #aaaaaa;
+    padding-top: 1.9rem;
+}
+.boton01{
+    border: 0px;
+    background-color: white;
+}
+/* Elementos Option, cuando se seleccionan */
+.boton01:hover img,
+.boton01:focus img{
+    opacity: 90%;
+}
+
+/* limpiamos los inputs de las decoraciones caracterizticas */
+input[type=number]::-webkit-inner-spin-button, /*  quitamos la decoracion de los input */
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] { /*  quitamos la decoracion de los input */
+    -moz-appearance:textfield; 
+}
+/* alineacion texto al lado de los inputs */
+.edad{
+    margin: 0px 15px;
+}
+.peso{
+    margin: 0px 15px;
+}
+.altura{
+    margin: 0px 3px;
+}
+
+/* boton calcular imc */
+.button{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+    background-color: #28d328;
+    width: 75%;
+    margin: 2.5rem auto 2rem auto;
+    padding: 10px;
+    font-size: 33px;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.button:hover{
+    background-color: #4cc207b2;
+}
+
+
+
+
+
