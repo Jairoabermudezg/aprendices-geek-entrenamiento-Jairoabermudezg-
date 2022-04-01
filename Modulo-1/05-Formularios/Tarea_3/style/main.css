@@ -1,0 +1,141 @@
+body{
+    
+    background-color: rgb(240,242,245);
+    
+   
+}
+
+#facebook .globalContainer{
+    font-family: inherit;
+}
+
+main{
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    margin:  auto;
+    width: 24.4em;
+}
+input{
+    
+    border: 1px solid #cac3c3;
+}
+h5{
+    margin: 0px;
+    margin-bottom: 8px;
+    padding: 0px 10px;
+}
+h4{
+    margin: auto;
+}
+.seccion1{
+    display: flex;
+    margin-top: 55px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid  #cac3c3;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #fff;
+}
+
+.facebook.logo {
+    height: 100px;
+}
+
+
+.seccion2{
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    border: 1px solid #cac3c3;
+    background-color: #fff;
+
+}
+header{
+    margin:  0 0 1 1px;
+    padding: 1 1 1 5px;
+}
+.cabecero p:first-child {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 0%;
+}
+.cabecero p:last-child {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 1px;
+    padding: 0 0 0 0px;
+}
+.datos0{
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+.datos0 input{
+    display: inline-block;
+    margin:  0 auto;
+    width: 45%;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #cac3c365;
+}
+.datos1{
+    margin-bottom: 10px;
+    width: 100%; 
+}
+.datos1 input{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #cac3c365;
+}
+
+.fechaNacimiento{
+    width: 100%;
+    font-size: 15px;
+}
+.fechaNacimiento input{
+    border-radius: 7px;
+    margin-top: 0px;
+    width: 28.2%;
+    padding: 7px;
+    font-size: 15px;
+}
+.sexo label{
+    border: 1px solid #cac3c3;
+    margin: 0.4em;
+    font-size: 15px;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+.condiciones{
+    text-align: justify;
+    font-size: 12.8px;
+    padding: 7px 9px;
+}
+.condiciones a{
+    text-decoration: none;
+}
+.cabecero{
+    width: auto;
+    border: 0px solid #cac3c3;
+}
+
+#p1{
+    font-size: 35px;
+}
+.boton input{
+    color: white;
+    margin-left: 6.2em;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 48%;
+    background-color: #14a001;
+    border-radius: 0.5em;
+    padding: 10px;
+}
+.boton:hover input{
+    background-color: #4cbd3d;
+}
